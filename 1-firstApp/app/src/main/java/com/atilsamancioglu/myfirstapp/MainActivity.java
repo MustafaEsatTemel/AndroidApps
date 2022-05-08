@@ -21,11 +21,11 @@ public class MainActivity extends AppCompatActivity {
         //ImageView türünden imageView değişkeni oluşturup, o değişkene findViewById ile gorsel kodlama yaparken ekledigimiz ImageView'in id'sini veriyoruz.
 	//Bir nevi gorsel islemlerde ekledigimiz buttonlardir,text alanlaridir vb onlarin tanimlarini yapiyoruz yani. 
 	//Benim imageView diye kullandigim degisken ekrandaki resime denk geliyor artik. Ekrandaki resimi o degisken araciligi ile kontrol edecegim.
-        ImageView imageView = findViewById(R.id.imageView);
+        ImageView imageView = findViewById(R.id.myImage);
 
         //Yukarıdaki kod ile gerekli resmimizi almıştık, şimdi ise bu aldığımız resmi farklı bir resimle değiştireceğiz.
         //R ile şuanki projemizdeyiz diyoruz, drawable klasörüne girip ordaki bir resmi seçiyoruz.
-        imageView.setImageResource(R.drawable.ic_launcher_background);
+        imageView.setImageResource(R.drawable.metallica2);
     }
 
 
